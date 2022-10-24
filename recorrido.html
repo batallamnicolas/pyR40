@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Etiquetas meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Santa cruz, Chubut, Rio negro, neuquén, mendoza, san juan, la rioja, catamarca, tucuman, salta, jujuy, provincias argentinas, viaje, motocicleta, motos ">
+    <meta name="description"
+        content="Recorrido de la ruta nacional 40 sobre las 11 provincias argentinas por la que se extiende. ilustraciones fotográficas de las provincias y algunos puntos turisticos bellisimos">
+    <meta name="title" content="Provincia por provicia">
+    <meta name="author" content="Tin Programmer">
+    <meta name="distribution" content="Global">
+    <meta name="language" content="Es">
+    <meta name="city" content="Cordoba">
+    <meta name="country" content="Argentina">
+    <!-- Fin etiquetas meta -->
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Link Estilos -->
+    <link rel="stylesheet" href="../estilos/style.css">
+
+    <!-- Links FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Exo:wght@100&family=M+PLUS+1:wght@300;400;500;700&family=Permanent+Marker&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    <!-- Link FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link ANIMACIONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Recorrido de la ruta 40</title>
+</head>
+
+<body>
+    <!-- Inicio NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/Logo ruta 40.png" alt="Logo ruta40" width="55" height="65"
+                    class="d-inline-block align-text-center">
+                Ruta 40
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links Navbar -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navegacion navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="inicio.html">Inicio</a>
+                    </li>
+                    <!-- Dropdown split -->
+                    <li class="nav-item btn-group dropdown">
+                        <a type="button" class="nav-link active" href="recorrido.html">Recorrido</a>
+                        <a type="button" class="nav-link dropdown-toggle dropdown-toggle-split"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="recorrido.html#1">Santa Cruz</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#2">Chubut</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#3">Rio Negro</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#4">Neuquén</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#5">Mendoza</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#6">San Juan</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#7">La Rioja</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#8">Catamarca</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#9">Tucuman</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#10">Salta</a></li>
+                            <li><a class="dropdown-item" href="recorrido.html#11">Jujuy</a></li>
+                        </ul>
+                    </li>>
+                    <li class="nav-item">
+                        <a class="nav-link" href="datos.html">Pre-viaje</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="fotos.html">Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin NavBar -->
+
+    <div class="container-fluid body my-0">
+
+        <!-- Inicio recorrido -->
+        <section class="container mb-5 SecRecorrido">
+            <h1 class="text-center mt-5 mb-0"><span>D</span>el<span> S</span>ur al <span>N</span>orte</h1>
+            <p class="text-muted text-center mt-0 mb-5">Recorrido de la Ruta Nacional 40 a lo largo del país del Sur al
+                Norte</p>
+            <div class="row my-5 bg-light" id="1">
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5">
+                    <p>El camino comienza en el faro ubicado en el cabo
+                        Vírgenes en la costa de <span>Santa Cruz</span>. Este cabo es el punto más sudoriental de la
+                        costa
+                        atlántica del área continental de América, el más austral es punta Dungeness unos kilómetros más
+                        al
+                        sur.
+                        Luego de atravesar la capital provincial, Río Gallegos, en superposición con la ruta nacional 3
+                        en
+                        un
+                        tramo de 35 km, se dirige hacia el oeste por el valle del río Gallegos hasta la ciudad minera de
+                        Río
+                        Turbio, y luego hacia el norte. Al llegar al lago Argentino pasa a 32 km de la ciudad turística
+                        de
+                        El
+                        Calafate, portal de entrada del parque nacional Los Glaciares, que incluye al glaciar Perito
+                        Moreno.
+                        Más
+                        al norte bordea otros lagos, como el lago Viedma y el lago Cardiel. Al llegar al paraje Bajo
+                        Caracoles
+                        hay un camino de tierra de 42 km denominado Ruta Provincial 97, que conduce a la Cueva de las
+                        Manos,
+                        que
+                        posee pinturas rupestres con una antigüedad cercana a los 10 000 años. Luego de cruzar el pueblo
+                        Perito
+                        Moreno, se llega al límite interprovincial con Chubut.
+                        Su recorrido es de 1325 km (del kilómetro 0 al 1325).</p>
+                </div>
+                <div class="imagen col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-1.jpg" alt="Santa Cruz, Argentina">
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-dark" id="2">
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-2.jpg" alt="Chubut, Argentina">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5 ">
+                    <p class="text-light">El camino discurre por el oeste de la provincia de <span>Chubut</span>
+                        cruzando
+                        varias poblaciones, como
+                        Río Mayo, Gobernador Costa, Tecka, y se encuentra en las cercanías de la ciudad turística de
+                        Esquel,
+                        estación terminal del ferrocarril La Trochita y punto de entrada al parque nacional Los Alerces.
+                        Más
+                        al
+                        norte, casi en el límite con la provincia de Río Negro la ruta pasa a 5 km de Lago Puelo, junto
+                        al
+                        parque nacional Lago Puelo. Recorrido: 586 km (del km 1325 al 1911).</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-light" id="3">
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5 ">
+                    <p>Con la cordillera de los Andes siempre visible, la carretera continúa por <span>Rio Negro</span>
+                        hacia
+                        el norte pasando por las ciudades turísticas de El Bolsón y San Carlos de Bariloche. En la
+                        localidad
+                        de
+                        Río Villegas se encuentra la entrada meridional del parque nacional Nahuel Huapi. En Villa
+                        Mascardi
+                        se
+                        encuentra el acceso al Cerro Tronador. La ruta no ingresa a la ciudad de San Carlos de
+                        Bariloche,
+                        sino
+                        que discurre por una variante que fue construida en la década de 2000. La última población en
+                        esta
+                        provincia es Dina Huapi, en la orilla oriental del Lago Nahuel Huapi. Recorrido: 145 km (del km
+                        1911
+                        al
+                        2056). </p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-3.jpg" alt="Rio Negro, Argentina">
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-dark" id="4">
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-4.jpg" alt="Neuquén, Argentina">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5 ">
+                    <p class="text-white">Luego de cruzar el río Limay en <span> Neuquén</span>, la ruta sigue por la
+                        izquierda rumbo a Villa La
+                        Angostura, luego continua por el Camino de los Siete Lagos, ubicado en el parque nacional Lanín.
+                        La
+                        ruta
+                        continua por norte pasando por San Martín de los Andes y Junín de los Andes Más al norte se
+                        encuentra
+                        Zapala, punta de riel del Ferrocarril General Roca, Las Lajas y Chos Malal. En el pueblo de
+                        Barrancas se
+                        encuentra el río Colorado, límite natural con la provincia de Mendoza. Recorrido: 684 km (del km
+                        2056 al
+                        km 73 —antigua ruta 231—, del km 171 —antigua ruta 234— hasta el km 2248 y del km 2248 al km
+                        2740).
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-light" id="5">
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5 ">
+                    <p>El camino circula por regiones secas de <span> Mendoza</span>, excepto donde a través del riego
+                        se
+                        puede
+                        obtener cultivo intensivo, generalmente de vid, de donde se obtiene el vino. En las cercanías de
+                        Bardas
+                        Blancas se encuentra el bosque petrificado Llano Blanco y la Caverna de las Brujas, con 5 km de
+                        galerías
+                        subterráneas. Luego de trasponer la Cuesta del Chihuido el camino pasa por Malargüe y el acceso
+                        al
+                        centro de esquí Las Leñas (ruta provincial 222). Más adelante pasa por las cercanías del embalse
+                        El
+                        Nihuil, punto de partida del cañón del Atuel, formación natural donde el río Atuel corre
+                        encajonado.
+                        Más
+                        al norte la ruta discurre por Tunuyán y por las ciudades del Gran Mendoza: Luján de Cuyo, Godoy
+                        Cruz,
+                        Mendoza (donde el antiguo kilómetro 0 actualmente tiene el indicador de km 3295) y Las Heras. En
+                        esta
+                        aglomeración urbana la ruta nacional 40 es autopista en el tramo comprendido entre las
+                        localidades
+                        de
+                        Ugarteche y la de Las Heras a la altura del km 3306, frente al Aeropuerto Internacional El
+                        Plumerillo.
+                        Esta autovía se encuentra en expansión hacia el sur. Recorrido: 638 km (del km 2740 al 3378).
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-5.jpg" alt="Mendoza, Argentina">
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-dark" id="6">
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-6.jpg" alt="San Juan, Argentina">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5 ">
+                    <p class="text-white">La ruta continúa al este de la precordillera de <span>San Juan</span>. La
+                        primera
+                        ciudad en atravesar es Media Agua, donde se encuentra una
+                        reliquia de San Antonio de Paduas. El camino continúa hacia la Ciudad de San Juan como
+                        autopista de cuatro carriles en total, donde se observa un paisaje netamente cultivado por vid,
+                        olivos y
+                        frutales. Es aquí donde la ruta se la integra en la denominada Ruta del Vino, en el departamento
+                        Pocito
+                        con la presencia de prestigiosas bodegas. Luego
+                        continúa por el aglomerado urbano del Gran San Juan donde es autopista y posee un cauce pluvial
+                        en
+                        el centro, rodeado por un paisaje netamente poblado, logrando tener una vista de
+                        todas las serranías que rodean al Valle del Tulúm. Luego se convierte en una de las principales
+                        avenidas del centro de la ciudad de
+                        San Juan. Hacia el norte se convierte nuevamente en autopista atravesando el departamento
+                        Chimbas.
+                        Al norte
+                        del Gran San Juan el camino llega a la ciudad de General San Martín, en
+                        Albardón para luego encontrarse con un paisaje sin asentamientos, de serranías y muy desértico.
+                        Después
+                        de recorrer más de 100 kilómetros de un espacio desértico el camino ingresa en el Valle de
+                        Jáchal.
+                        La primera localidad en atravesar es Niquivil, para luego solaparse
+                        con la Ruta Nacional 150, cruzar el río Jáchal, y así llegar a la localidad de Huaco,
+                        caracterizada
+                        por
+                        la presencia de históricos molinos harineros del siglo XIX, declarados Monumento Histórico
+                        Nacional,
+                        y se observa un paisaje agrícola. Luego de pasar por está localidad el camino pasa por
+                        paisajes montañosos y por importantes explotaciones mineras hasta el límite con la provincia de
+                        La
+                        Rioja. Recorrido: 333 km (del km 3378 al 3711). </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-light" id="7">
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5 ">
+                    <p>Luego en <span>La Rioja</span> circulando encajonado entre la Sierra de Maíz y los Cerros
+                        Colorados,
+                        la
+                        ruta llega a Villa Unión, donde se encuentra el empalme con la ruta nacional 76 que hacia el sur
+                        conduce
+                        al parque nacional Talampaya. Más adelante se encuentra la Cuesta de Miranda, en la sierra de
+                        Sañogasta,
+                        con lo que se accede a Nonogasta y luego a Chilecito. Finalmente la ruta circula por un valle
+                        entre
+                        la
+                        sierra de Famatina (al oeste) y la sierra de Velasco (al este). Recorrido: 293 km (del km 3711
+                        al
+                        4004).</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-7.jpg" alt="La Rioja, Argentina">
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-dark" id="8">
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-8.jpg" alt="Catamarca, Argentina">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5">
+                    <p class="text-white">La ruta recorre el oeste de <span> Catamarca</span> en sentido sudoeste a
+                        noreste.
+                        A unos 70 km del
+                        límite con la Provincia de La Rioja se encuentra Londres, que es la primera población fundada en
+                        territorio catamarqueño y segunda en el país, en el año 1558. En las cercanías de Hualfín se
+                        encuentra
+                        la ruta provincial 43, que conduce a Antofagasta de la Sierra, punto de partida para excursiones
+                        en
+                        vehículos todo terreno por los salares del oeste provincial. En Punta de Balasto comienzan los
+                        Valles
+                        Calchaquíes. Luego de cruzar la ciudad de Santa María se encuentra el límite con la Provincia de
+                        Tucumán; el recorrido en Catamarca se encuentra completamente asfaltado. Recorrido: 275 km (del
+                        km
+                        4004
+                        al 4279). </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-light" id="9">
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5">
+                    <p>La ruta recorre el extremo noroccidental de <span>Tucuman</span>, en los Valles Calchaquíes. A 14
+                        km
+                        al
+                        este de la ruta, por ruta provincial 357, se encuentra Amaicha del Valle. En este punto, se
+                        encuentra el
+                        empalme con la ruta provincial 307 que conduce a la localidad de Tafí del Valle. Siguiendo hacia
+                        el
+                        Norte por la ruta 40, a 4 km hacia el Oeste se encuentran las Ruinas de Quilmes. Luego se
+                        atraviesa
+                        el
+                        pueblo de Colalao del Valle, desde donde puede accederse a la pequeña localidad de El Pichao, 8
+                        km
+                        hacia
+                        el Oeste. Unos 10 km más al norte finaliza el tramo tucumano de la Ruta Nacional 40. Desde 2018,
+                        el
+                        recorrido en Tucumán se encuentra completamente asfaltado. Recorrido: 37 km (del km 4279 al
+                        4316).
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-9.jpg" alt="Tucuman, Argentina">
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-dark" id="10">
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center ">
+                    <img class="h-100 img-fluid" src="../img/pcia-10.jpg" alt="Salta, Argentina">
+                </div>
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5">
+                    <p class="text-white">El camino sigue por <span>Salta</span> en los Valles Calchaquíes hasta
+                        Cafayate,
+                        donde se encuentra el
+                        empalme con la Ruta Nacional 68. Desde dicha ruta se pueden apreciar curiosas formas en las
+                        montañas
+                        que
+                        forman la Quebrada de las Conchas, como Los Castillos, El Obelisco, El Fraile y El Sapo.
+                        Continuándose
+                        por la Ruta del vino de Salta que superpone a la 40, los valles llegan hasta el pueblo de Cachi
+                        a
+                        2280 m
+                        s. n. m. Más al norte la ruta comienza a ganar altura hasta llegar a su punto máximo en el km
+                        4601,
+                        abra
+                        del Acay, a 5061 msnm (convirtiéndose la ruta más alta del Continente Americano), en una zona
+                        donde
+                        el
+                        camino consolidado posee poco mantenimiento, por lo que puede accederse y se recomienda hacerlo
+                        con
+                        vehículos todo terreno. Luego de bajar hacia la puna de Atacama se arriba a San Antonio de los
+                        Cobres, a
+                        3775 m s. n. m., estación del Tren de las Nubes cerca de su final en el Viaducto la Polvorilla.
+                        La
+                        ruta
+                        pasa por debajo de esta construcción. Por Ley 6808 de la Provincia de Salta promulgada el 28 de
+                        noviembre de 1995, la ruta atraviesa dos áreas naturales provinciales de preservación,
+                        recreación y
+                        turismo. Sus nombres son Monumento Natural del abra del Acay, desde el pueblo La Poma hasta el
+                        abra
+                        mencionada, y Monumento Natural de Angastaco, entre los accesos a Angastaco y a Santa Rosa.
+                        Recorrido:
+                        356 km (del km 4316 al 4672). </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row my-5 bg-light" id="11">
+                <div class="col-sm-12 col-md-9 col-lg-8 col-xxl-7 texto p-5">
+                    <p>En <span>Jujuy</span> la ruta discurre por la Puna, que es una región árida y de gran altura,
+                        superando
+                        en todo su recorrido los 3000 m s. n. m. En esta zona hay muy pocas poblaciones, siendo la más
+                        importante la localidad de Susques, un pueblo muy antiguo que tiene la particularidad de ser la
+                        localidad con mayor altitud (3869 m s. n. m.) de la República Argentina accesible por camino
+                        pavimentado
+                        (la RN 52). Más al norte el camino pasa por la localidad más elevada del país: Mina Pirquitas, a
+                        4271 m
+                        s. n. m. A pocos kilómetros de esta carretera se encuentra la localidad más septentrional de la
+                        República Argentina: Santa Catalina. El camino termina en la intersección con la Ruta Nacional 9
+                        en
+                        La
+                        Quiaca que es la ciudad con más de 10 000 habitantes más elevada del país, a 3442 m s. n. m. El
+                        tránsito
+                        es muy escaso en esta provincia. Recorrido: 550 km (del km 4672 al 5224).</p>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-4 col-xxl-5 p-0 align-self-center">
+                    <img class="img-fluid" src="../img/pcia-11.jpg" alt="Jujuy, Argentina">
+                </div>
+            </div>
+        </section>
+        <!-- Fin Recorrido -->
+
+    </div>
+
+    <!-- Inicio de Footer -->
+    <footer class="container-fluid">
+        <p class="marca float-start">&copy; 1996–2022 M. Nicolas Batalla &middot;
+            <a href="#">Privacy</a> &middot;
+            <a href="#">Terms</a> &middot;
+        </p>
+
+        <a class="arriba float-end" href="#"><i class="fa-regular fa-hand-point-up"></i></a>
+    </footer>
+    <!-- Fin de Footer -->
+
+    <!-- Scrips para Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
